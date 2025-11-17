@@ -1,215 +1,84 @@
-T13: Disseny d’un E-commerce en Figma (Landing Page + Checkout)
-Breu descripció
-Un nou client ha contactat amb la consultora EverPia per crear un e-commerce complet, amb una landing page comercial i un procés de checkout totalment funcional.
-El client NO vol que comencem directament a programar; vol veure primer una proposta visual professional, creada amb Figma, abans de validar el projecte definitiu.
-Cada parella rebrà un producte o servei assignat per sorteig a classe, i haurà de dissenyar la proposta de la seva botiga online.
-Requisits de la tasca
-La maqueta ha d’incloure, com a mínim:
-1. Landing Page completa
-Capçalera amb logo, menú i icones funcionals.
-Hero visual amb CTA principal.
-Secció de productes destacats.
-Testimonis i reviews.
-Sobre nosaltres.
-Peu de pàgina amb informació corporativa.
-
-
-2. Procés de Checkout complet
-Pàgina de detall del producte.
-Cistell de la compra.
-Pas de registre / convidat.
-Adreça d’enviament i mètode d’entrega.
-Mètode de pagament (targeta / PayPal / altres).
-Revisió final de comanda.
-Pantalla de confirmació.
-
-
-3. Circuits imprescindibles a Figma
-Les maquetes han de permetre navegar:
-Com a convidat.
-Com a usuari registrat.
-Amb pagament per targeta i PayPal.
-Amb codi de descompte.
-Amb recollida en botiga.
-
+# T13: Disseny d’un E-commerce en Figma (Landing Page + Checkout)
 
+## Breu descripció
+**Objectiu:** Crear un prototip navegable professional en Figma per a un e-commerce complet, incloent una **Landing Page** comercial i un **Procés de Checkout** funcional. El client vol validar la proposta visual abans de començar la programació.
 
+---
 
-Objectius específics de la tasca / Finalitat de la tasca
-Crear un prototip navegable professional i presentar-lo com si fóssiu l’equip encarregat del projecte dins d’EverPia.
+## Introducció
+Un nou client ha contactat amb EverPia per dissenyar una botiga online. Cada parella rebrà un producte o servei assignat i haurà de crear la maqueta completa en Figma.
 
+---
 
-Competències treballades
+## Requisits de la tasca
 
+### **1. Landing Page completa**
+- Capçalera amb logo, menú i icones funcionals.
+- Hero visual amb CTA principal.
+- Secció de productes destacats.
+- Testimonis i reviews.
+- Sobre nosaltres.
+- Peu de pàgina amb informació corporativa.
 
+### **2. Procés de Checkout complet**
+- Pàgina de detall del producte.
+- Cistell de la compra.
+- Pas de registre / convidat.
+- Adreça d’enviament i mètode d’entrega.
+- Mètode de pagament (targeta / PayPal / altres).
+- Revisió final de comanda.
+- Pantalla de confirmació.
 
-RA(s) de la tasca
+### **3. Circuits imprescindibles a Figma**
+- Navegació com a convidat.
+- Navegació com a usuari registrat.
+- Pagament per targeta i PayPal.
+- Aplicació de codi de descompte.
+- Opció de recollida en botiga.
 
+---
 
-CA(s) de la tasca
+## Objectius específics
+- Crear un prototip navegable professional en Figma.
+- Presentar la proposta com si fóssiu l’equip encarregat del projecte dins d’EverPia.
 
+---
 
-C(s) de la tasca
+## Competències treballades
+- Disseny UX/UI.
+- Organització i planificació de continguts.
+- Creació de prototips interactius.
 
+---
 
-Capacitats clau treballades
-Autonomia
-Innovació
-Relació interpersonal
-Organització del treball
-Responsabilitat
-Treball en equip
-Resolució de problemes
+## RA(s) de la tasca
+- Aplicació de tècniques de disseny per interfícies comercials.
 
+### CA(s)
+- Creació de maquetes navegables amb Figma.
+- Definició de fluxos d’usuari complets.
 
+### C(s)
+- Disseny d’interfícies orientades a la conversió.
 
+---
 
-0224 Sistemes Operatius en Xarxa
-0226 Seguretat Informàtica
-0227 Serveis de Xarxa
-0228 Aplicacions web
-1708 Sostenibilitat
-1710 Itinerari Ocupabilitat II
-1713 Projecte Intermodular
-T
-U
-T
-O
-R
-I
-A
-Hores
+## Capacitats clau treballades
+- Autonomia
+- Innovació
+- Organització del treball
+- Responsabilitat
+- Treball en equip
+- Resolució de problemes
 
+---
 
-RA1
-RA2
-RA3
-RA4
-RA5
-RA6
-RA1
-RA2
-RA3
-RA4
-RA5
-RA1
-RA2
-RA3
-RA4
-RA5
-RA6
-RA7
-RA 8
-RA1
-RA2
-RA3
-RA4
-RA5
-RA1
-RA2
-RA3
-RA4
-RA5
-R
-A
-6
-RA1
-RA2
-RA3
-RA4
-RA5
-RA1
-RA2
-RA3
-RA 4
-RA5
+## Termini i forma de lliurament
+- **Quan:** Segons la data indicada al Moodle.
+- **Forma:** Lliurar enllaç al prototip Figma a la tasca corresponent del Moodle.
 
+---
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-6
-
-
-
-Quan es necessita, termini i forma de lliurament
-Termini de lliurament: data indicada a la tasca del Moodle
-
-
+## Materials i links de suport
+- Figma: https://www.figma.com/
+- Recursos UX/UI: [Disponible al Moodle]
