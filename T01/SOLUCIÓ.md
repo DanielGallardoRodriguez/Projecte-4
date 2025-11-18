@@ -1,19 +1,16 @@
-# Pla de Còpies de Seguretat
+# Fase 1
 
-## ✅ Fase 1: Estratègia de Còpies
+## 1. Què copiar? (Priorització)
+Quines són les dades més crítiques del servidor? Cal fer còpia dels 10 equips clients? Justifica-ho.
 
-### 1. Què copiar? (Priorització)
-- **Dades més crítiques del servidor:**
-  - **Base de dades**: Conté informació essencial per al funcionament de l’organització.
-  - **Carpetes personals dels usuaris**: Documents diaris i informació general.
-  - **Documents de projectes**: Informació important però menys crítica que la base de dades.
-
-- **Cal fer còpia dels 10 equips clients?**
-  - **No és necessari** fer còpia completa dels equips clients, ja que les dades es desen al servidor de fitxers. Només caldria fer còpia parcial si hi ha informació local no sincronitzada.
+- Copiar principalment tant la base de dades i si es pot els documents de projectes. Ja que les més crítiques són la base de dades i les Carpetes Personals dels Usuaris ja que són les diàries de cada usuari i les generals.
+- No és necessari fer còpia completa dels equips clients, ja que les dades es desen al servidor de fitxers. Només caldria fer còpia parcial si hi ha informació local no sincronitzada.
 
 ---
 
-### 2. Periodicitat i Tipus de Còpia
+## 2. Periodicitat i Tipus de Còpia
+Proposa un calendari bàsic per a la setmana (Diari/Setmanal/Mensual) i quin tipus de còpia aplicaràs (Completa, Diferencial, Incremental) per a les dades crítiques.
+
 **Calendari per setmana:**
 
 | Tipus           | Diari                      | Setmanal                     | Mensual                   |
@@ -23,30 +20,29 @@
 | **Incremental** | Crítiques i d'ús diari    | Plànols                      |                           |
 
 **Explicació:**
-- **Diari**: Incremental per a dades crítiques i d’ús diari (canvis constants).
+- **Diari**: Farem una còpia diària incremental sobre les dades crítiques i d’ús diari, ja que és informació que necessitem diàriament i es va actualitzant constantment.
 - **Setmanal**:
-  - Completa per a la base de dades (garantir integritat).
-  - Diferencial per a especificacions tècniques (canvis poc freqüents).
-  - Incremental per a plànols (seguretat addicional).
-- **Mensual**: Completa per a documents de projectes (informació menys crítica).
+  - Farem una còpia completa sobre les bases de dades, ja que és necessari per mantenir tot correctament i amb una a la setmana ja és suficient.
+  - A part, farem una còpia diferencial sobre les especificacions tècniques per tal de mantenir aquestes dades, suficient fer una setmanal ja que no solen variar molt.
+  - Finalment, farem una còpia incremental dels plànols una vegada per setmana per assegurar possibles intrusions.
+- **Mensual**: Farem una còpia completa dels documents de projectes al mes, ja que és informació menys crítica i amb una còpia mensual és suficient.
 
 ---
 
-### 3. Mitjans i Ubicació (Regla 3-2-1)
-- **Mitjà principal**: Discs durs externs (fiables i ràpids).
-- **Mitjà secundari**: Cinta magnètica (per a còpies a llarg termini).
-- **Ubicació**:
-  - 1 còpia local (servidor intern).
-  - 1 còpia externa (cloud privat).
-  - 1 còpia fora de l’empresa (cinta magnètica en ubicació segura).
+## 3. Mitjans i Ubicació
+Quin tipus de mitjà de còpia utilitzaries (Discs durs externs, NAS, Cloud, Cintes)? On s'hauria de guardar físicament la còpia més recent (Regla 3-2-1).
+
+- Utilitzaria discs durs externs, ja que és la forma més segura de mantenir la informació correctament i recomano aquesta opció.
+- S’hauria d’emmagatzemar en un backup al Cloud privat.
 
 ---
 
-## ✅ Fase 2: Proposta resumida
-| Element              | Proposta               | Justificació                |
-|----------------------|------------------------|-----------------------------|
-| **Dades Crítiques** | Base de dades          | Conté informació essencial |
-| **Periodicitat (BD)**| Setmanal              | Evita pèrdua de dades      |
-| **Tipus de Còpia (BD)**| Completa en xarxa   | Garantir integritat        |
-| **Mitjà 1 (Local)** | Disc dur extern        | Fiabilitat i rapidesa      |
-| **Mitjà 2 (Extern)**| Cinta magnètica        | Seguretat a llarg termini  |
+# Fase 2
+
+| Element                | Proposta de la Parella | Justificació                     |
+|------------------------|------------------------|----------------------------------|
+| **Dades Crítiques**    | Base de dades         | És l’element més important ja que conté |
+| **Periodicitat (BD)**  | 1 setmanal            | Evita pèrdua de dades            |
+| **Tipus de Còpia (BD)**| Completa en xarxa     | Garantir integritat              |
+| **Mitjà 1 (Local)**    | Disc durs externs     | Fiabilitat i rapidesa            |
+| **Mitjà 2 (Extern)**   | Cinta magnètica       | Seguretat a llarg termini        |
