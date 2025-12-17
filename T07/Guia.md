@@ -1,144 +1,60 @@
-# T07 – Accés remot  
-## Serveis d’assistència remota (Helpdesk EverPia)
+# T07: Accés Remot - Serveis d’Assistència Remota
+
+**Equip:** Consultoria IT EverPia  
+**Data:** Desembre 2025  
+**Eina Seleccionada:** RustDesk (Solució Gratuïta i Professional)
 
 ---
 
-# Fase 1: Anàlisi comparativa i selecció de la solució
+## Fase 1: Anàlisi Comparativa i Selecció
 
-## Introducció
-En el servei de Helpdesk d’EverPia, una part important de la feina consisteix a donar suport remot a usuaris finals que, en molts casos, no tenen coneixements tècnics. Per aquest motiu, és necessari disposar d’una eina d’assistència remota sota demanda que sigui fàcil d’utilitzar, ràpida i segura, sense requerir configuracions complexes com VPNs o l’obertura de ports.
+Hem avaluat les opcions del mercat per trobar una eina que ens permeti donar suport sense costos de llicència elevats ni restriccions d'ús.
 
-L’objectiu d’aquesta fase és analitzar diferents eines d’assistència remota i seleccionar la més adequada per estandarditzar el servei de suport d’EverPia.
+### Taula Comparativa
 
----
+| Criteri | **TeamViewer** | **AnyDesk** | **Chrome Remote Desktop** | **RustDesk** |
+| :--- | :--- | :--- | :--- | :--- |
+| **Facilitat (Client)** | Molt alta (QuickSupport). | Alta (Portable). | Mitjana (requereix Chrome). | **Alta (Portable i senzill)**. |
+| **Model de Preu** | Molt car (Comercial). | Pagament per tècnic. | Gratuït. | **Gratuït i Codi Obert**. |
+| **Limitacions** | Talla la sessió si detecta ús comercial. | Restriccions en versió gratuïta. | Cal compte de Google i extensió. | **Cap. Sense límits de temps**. |
+| **Instal·lació** | Opcional. | No cal (portable). | Obligatòria (extensió). | **No cal (executable únic)**. |
 
-## Eines analitzades
-Les eines analitzades en aquesta fase són:
-- TeamViewer  
-- AnyDesk  
-- Google Chrome Remote Desktop  
-- RustDesk  
-
----
-
-## Taula comparativa
-
-| Criteri | TeamViewer | AnyDesk | Google Chrome Remote Desktop | RustDesk |
-|--------|-----------|---------|------------------------------|----------|
-| **Facilitat d’ús (client)** | Molt alta. Mòdul QuickSupport sense instal·lació, amb ID i contrasenya visibles. | Molt alta. Executable portable molt lleuger i fàcil d’utilitzar. | Mitjana. Requereix compte de Google i configuració prèvia. | Mitjana. Portable, però menys intuïtiva per a usuaris no tècnics. |
-| **Instal·lació necessària** | No (QuickSupport) | No (versió portable) | Sí | No |
-| **Windows** | Sí | Sí | Sí | Sí |
-| **macOS** | Sí | Sí | Sí | Sí |
-| **Linux** | Sí | Sí | Limitada | Sí |
-| **Model de preu** | Gratuït només per a ús personal. L’ús comercial requereix llicència. | Llicència de pagament per a ús comercial, amb un cost inferior a TeamViewer. | Gratuït, però amb funcionalitats limitades. | Gratuït i de codi obert. Possibilitat d’autoallotjament. |
+### Recomanació: RustDesk
+Hem triat **RustDesk** perquè és l'alternativa gratuïta definitiva a TeamViewer. Ens permet tenir el control total de les sessions, funciona en tots els sistemes operatius (Windows, macOS, Linux) i és ideal per a EverPia perquè no requereix inversió inicial en llicències.
 
 ---
 
-## Recomanació
+## Fase 2: Guies d’Ús (Documentació Oficial)
 
-### Eina seleccionada: **AnyDesk**
+### Guia 1: Manual per al Tècnic (Intern d'EverPia)
 
-Després de l’anàlisi comparativa, es considera que **AnyDesk** és la millor opció per a EverPia. És una eina molt senzilla per als clients, ja que no requereix instal·lació i permet iniciar una sessió de suport en pocs segons. A més, és compatible amb els principals sistemes operatius utilitzats a l’empresa.
+Com a tècnic, aquest és el teu flux de treball per connectar-te a un client:
 
-Un altre factor important és el seu cost, que és més assequible que el de TeamViewer, oferint alhora funcionalitats suficients per a un entorn professional de Helpdesk.
+1. **Execució:** Obre l'executable de RustDesk al teu ordinador. No cal instal·lar-lo si no vols.
 
----
+   <img width="1377" height="764" alt="image" src="https://github.com/user-attachments/assets/f3c07c3b-6045-4119-ace4-57a908adc157" />
 
-## Conclusions de la Fase 1
-AnyDesk ofereix un bon equilibri entre facilitat d’ús, compatibilitat multiplataforma i cost, fet que la converteix en la solució més adequada per al servei d’assistència remota d’EverPia.
+3. **Connexió:**
+   * A la part dreta de la pantalla veuràs un quadre que diu **"Control Remote Desktop"**.
+   * Introdueix l'**ID** que t'ha donat el client.
 
----
+<img width="1358" height="754" alt="Captura de pantalla 2025-12-17 202805" src="https://github.com/user-attachments/assets/121f2a08-2937-4e01-a6f9-1ba397bf69b9" />
 
-# Fase 2: Creació de les guies d’ús (Documentació)
+   * Prem el botó **"Connect"**.
+3. **Autenticació:**
+   * El programa et demanarà una **Password**. Demana-li al client o espera que ell accepti la connexió manualment prement "Accept".
 
-## Introducció
-Un cop seleccionada l’eina d’assistència remota, s’han elaborat dues guies d’ús diferenciades: una adreçada als tècnics d’EverPia i una altra pensada per als clients finals. L’objectiu és facilitar l’ús correcte de l’eina i garantir un suport remot segur i eficient.
+<img width="1358" height="773" alt="Captura de pantalla 2025-12-17 202659" src="https://github.com/user-attachments/assets/bf0d18ac-73d9-467e-8e6b-5c6bfeabc7ca" />
 
----
 
-# Guia 1: Manual per al Tècnic (Intern d’EverPia)
+4. **Eines de Suport:**
+   * **Transferència de fitxers:** Pots arrossegar fitxers directament a la finestra de la sessió.
+   * **Xat:** Utilitza la finestra de xat integrada per parlar amb l'usuari si la trucada es talla.
+  
+<img width="1392" height="792" alt="Captura de pantalla 2025-12-17 202712" src="https://github.com/user-attachments/assets/d685ba2d-7d48-4421-881b-a6f9696416e9" />
 
-## 1. Instal·lació de la versió tècnica d’AnyDesk
-1. Accedir al web oficial d’AnyDesk.
-2. Descarregar la versió corresponent al sistema operatiu.
-3. Executar l’instal·lador i seguir els passos indicats.
-4. Obrir AnyDesk un cop finalitzada la instal·lació.
 
-**[Captura 1: Pàgina de descàrrega d’AnyDesk]**  
-**[Captura 2: Procés d’instal·lació d’AnyDesk]**
-
----
-
-## 2. Iniciar una sessió de suport remot
-1. Demanar al client el seu **ID d’AnyDesk**.
-2. Introduir l’ID al camp *Remote Desk*.
-3. Fer clic al botó **Connect**.
-4. Esperar que el client accepti la connexió.
-
-**[Captura 3: Pantalla principal d’AnyDesk amb el camp Remote Desk]**
+> [!IMPORTANT]
+> **Seguretat:** En acabar, tanca la finestra de RustDesk. RustDesk genera una contrasenya nova després de cada sessió per seguretat.
 
 ---
-
-## 3. Gestió de funcions clau
-
-### 3.1 Transferència d’arxius
-- Utilitzar l’opció de transferència d’arxius o arrossegar fitxers entre dispositius.
-
-**[Captura 4: Transferència d’arxius]**
-
-### 3.2 Canvi de pantalla
-- Seleccionar la pantalla desitjada si el client disposa de més d’un monitor.
-
-**[Captura 5: Canvi de pantalla]**
-
-### 3.3 Reinici remot
-- Utilitzar l’opció de reinici remot quan sigui necessari.
-
-**[Captura 6: Reinici remot]**
-
----
-
-## 4. Bones pràctiques de seguretat
-- Tancar sempre la sessió en finalitzar el suport.
-- No desar contrasenyes ni dades dels clients.
-- Demanar permís abans de fer canvis importants.
-- Informar el client quan la sessió hagi finalitzat.
-
----
-
-# Guia 2: Manual per al Client (Usuari Final)
-
-## 1. Descarregar AnyDesk (sense instal·lació)
-1. Obrir el navegador.
-2. Accedir a l’enllaç facilitat pel tècnic.
-3. Fer clic a **Download**.
-4. Obrir el fitxer descarregat.
-
-**[Captura 7: Descàrrega d’AnyDesk]**
-
----
-
-## 2. Identificar l’ID i la contrasenya
-- A la pantalla principal d’AnyDesk apareixen l’ID del dispositiu i la contrasenya temporal.
-- Aquestes dades s’han de comunicar al tècnic.
-
-**[Captura 8: ID i contrasenya]**
-
----
-
-## 3. Acceptar la connexió
-1. Quan el tècnic es connecti, apareixerà una finestra.
-2. Fer clic a **Acceptar**.
-3. Mantenir AnyDesk obert fins que el tècnic finalitzi.
-
-**[Captura 9: Acceptar connexió]**
-
----
-
-## 4. Finalització de la sessió
-Un cop resolta la incidència, el tècnic tancarà la sessió i l’usuari podrà tancar AnyDesk amb normalitat. La contrasenya canviarà automàticament per seguretat.
-
----
-
-## Conclusió final
-Amb la implementació d’AnyDesk i la creació d’aquestes guies, EverPia disposa d’un sistema d’assistència remota clar, segur i fàcil d’utilitzar, tant per als tècnics com per als clients.
