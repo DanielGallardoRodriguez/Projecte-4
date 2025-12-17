@@ -1,27 +1,36 @@
-### Guia 2: Manual per al Client (Usuari Final)
+## Guia 2: Manual per al Client (Usuari Final)
 
-Si tens un problema, el nostre equip es connectarà al teu equip seguint aquests passos:
+Aquesta guia explica de manera senzilla com permetre que un tècnic d’EverPia es connecti al teu ordinador per ajudar-te.
 
-**1. Descarrega el programa d'ajuda**
-Fes clic a la web oficial de RustDesk i baixa la versió per a Windows (o el sistema que tinguis). Només has d'obrir el fitxer descarregat; **no cal instal·lar res**.
+### 1. Descarregar el programa d’ajuda
+Accedeix a la pàgina oficial de RustDesk i descarrega la versió corresponent al teu sistema operatiu.  
+Només cal **obrir el fitxer descarregat**; no és necessari instal·lar res.
 
-**2. Digues-nos el teu ID i Contrasenya**
-Quan obris el programa, veuràs a l'esquerra de la pantalla dos codis:
-**ID:** Un número de 9 dígits (ex: 123 456 789).
-**One-time Password:** Una contrasenya de lletres i números.
+---
 
+### 2. Comunicar l’ID i la contrasenya
+En obrir el programa, veuràs a la part esquerra:
 
-<img width="802" height="609" alt="Captura de pantalla 2025-12-17 202641" src="https://github.com/user-attachments/assets/422beb41-6ad7-4436-a80d-6e7493933aed" />
+- **ID:** un número de 9 dígits (per exemple: 123 456 789)
+- **One-time Password:** una contrasenya temporal
 
+Facilita aquestes dades al tècnic d’EverPia.
 
-**3. Accepta l'ajuda**
-Quan el tècnic intenti entrar, apareixerà una finestra. Simplement fes clic a **"Accept"**. Veuràs com el tècnic mou el ratolí per arreglar el problema.
+<img width="802" height="609" alt="ID i contrasenya del client" src="https://github.com/user-attachments/assets/422beb41-6ad7-4436-a80d-6e7493933aed" />
 
-<img width="909" height="670" alt="Captura de pantalla 2025-12-17 202705" src="https://github.com/user-attachments/assets/6f493212-8a49-4350-8f6e-7a5a594d9498" />
+---
 
+### 3. Acceptar la connexió
+Quan el tècnic intenti connectar-se, apareixerà una finestra emergent.  
+Fes clic a **“Accept”** per permetre l’accés.
 
-**4. Com tancar**
-En qualsevol moment pots tancar el programa prement la "X" i la connexió es tallarà immediatament.
+<img width="909" height="670" alt="Acceptar connexió" src="https://github.com/user-attachments/assets/6f493212-8a49-4350-8f6e-7a5a594d9498" />
+
+---
+
+### 4. Finalitzar la sessió
+En qualsevol moment pots tancar el programa prement la **X**.  
+La connexió es tallarà immediatament.
 
 ---
 
